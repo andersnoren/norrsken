@@ -37,11 +37,13 @@ a {
 /* INPUTS */
 
 input, textarea, select {
-	background-color: var( --wp--preset--color--base-2 );
+	background-color: var(--wp--preset--color--base);
+	border: 1px solid var(--wp--preset--color--contrast-4);
 	border-radius: 4px;
 	color: inherit;
 	font: inherit;
 	letter-spacing: inherit;
+	padding: .725em 4em .725em 1em;
 }
 
 ::placeholder { 
@@ -49,20 +51,25 @@ input, textarea, select {
 }
 
 select {
+	--chevron-size: 12px;
 		-webkit-appearance: none;
 		-moz-appearance: none;
 	appearance: none;
-	background-color: var(--wp--preset--color--base);
-	background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' fill='%ffffff'><polygon points='0,0 10,0 5,5'/></svg>");
-	background-position: right 1rem top center;
-	background-repeat: no-repeat;
-	border: 1px solid var(--wp--preset--color--contrast-4);
+	background-image:
+		linear-gradient(45deg, transparent calc( 50% - .5px ), currentColor calc( 50% - .5px ), currentColor calc( 50% + .5px ), transparent calc( 50% + .5px ) ),
+		linear-gradient(-45deg, transparent calc( 50% - .5px ), currentColor calc( 50% - .5px ), currentColor calc( 50% + .5px ), transparent calc( 50% + .5px ) );
+	background-position:
+		calc(100% - 1em - ( .5 * var( --chevron-size ) ) ) 100%,
+		calc(100% - 1em - ( 0 * var( --chevron-size ) ) ) 100%;
+	background-size:
+		calc( var( --chevron-size ) / 2 ), calc( var( --chevron-size ) / 2 ),
+		calc( var( --chevron-size ) / 2 ), calc( var( --chevron-size ) / 2 );
 	box-shadow: none;
 	color: var(--wp--preset--color--contrast);
 	max-width: 100%;
 	outline: none;
-	padding: .66em 4em .66em 1em;
 	transition: border-color .1s linear;
+	background-repeat: no-repeat;
 }
 
 select:focus {
@@ -93,8 +100,16 @@ select:focus {
 /* BLOCK: SEARCH */
 
 :where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) {
+	background-color: var( --wp--preset--color--base-2 );
 	border: none;
-	padding: 4px 4px 4px 16px;
+	border-radius: 4px;
+	padding: 0;
+}
+
+.wp-block-search__input {
+	background-color: transparent;
+	border-color: var( --wp--preset--color--contrast-4 );
+	padding: .777em 1em;
 }
 
 
