@@ -57,36 +57,8 @@ if ( ! function_exists( 'norrsken_block_styles' ) ) :
 			'core/query-pagination',
 			array(
 				'name'         => 'norrsken-pagination',
-				'label'        => __( 'Norrsken Pagination', 'norrsken' ),
-				'inline_style' => "
-				:root .is-style-norrsken-pagination > *,
-				.is-style-norrsken-pagination [class*=\"is-arrow-\"]:only-child {
-					margin: 0;
-				}
-
-				.wp-block-query-pagination,
-				.is-style-norrsken-pagination .wp-block-query-pagination-numbers {
-					display: flex;
-					flex-wrap: wrap;
-					gap: .66em;
-				}
-
-				.is-style-norrsken-pagination > a,
-				.is-style-norrsken-pagination .wp-block-query-pagination-numbers > * { 
-					align-items: center;
-					border: 1px solid var( --wp--preset--color--30 );
-					border-radius: 50%;
-					display: flex;
-					height: 2em;
-					justify-content: center;
-					margin: 0;
-					width: 2em;
-				}
-
-				.is-style-norrsken-pagination a:hover,
-				.is-style-norrsken-pagination .wp-block-query-pagination-numbers .current {
-					background: var( --wp--preset--color--30 );
-				}",
+				'label'        => __( 'Norrsken', 'norrsken' ),
+				'inline_style' => "",
 			)
 		);
 		

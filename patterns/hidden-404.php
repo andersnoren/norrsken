@@ -6,10 +6,20 @@
  */
 ?>
 
-<!-- wp:heading {"level":1} -->
-<h1 class="wp-block-heading" id="page-not-found"><?php echo esc_html_x( 'Page Not Found', 'Heading for a webpage that is not found', 'norrsken' ); ?></h1>
+<!-- wp:heading {"textAlign":"center","level":1,"fontSize":"heading-3"} -->
+<h1 class="wp-block-heading has-text-align-center has-heading-3-font-size" id="page-not-found"><?php echo esc_html_x( 'Error 404', 'Heading for a webpage that is not found', 'norrsken' ); ?></h1>
 <!-- /wp:heading -->
-<!-- wp:paragraph -->
-<p><?php echo esc_html_x( 'The page you are looking for does not exist, or it has been moved. Please try searching using the form below.', 'Message to convey that a webpage could not be found', 'norrsken' ); ?></p>
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity" />
+<!-- /wp:separator -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center"><?php echo esc_html_x( 'The page could not be found. Return to the front page or try the search form below.', 'Message to convey that a webpage could not be found', 'norrsken' ); ?></p>
 <!-- /wp:paragraph -->
-<!-- wp:pattern {"slug":"norrsken/hidden-search"} /-->
+
+<!-- wp:group {"layout":{"type":"constrained","contentSize":"280px"}} -->
+<div class="wp-block-group">
+	<!-- wp:pattern {"slug":"norrsken/hidden-search"} /-->
+</div>
+<!-- /wp:group -->
