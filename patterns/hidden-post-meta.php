@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Post meta
- * Slug: twentytwentyfour/hidden-post-meta
+ * Slug: norrsken/hidden-post-meta
  * Inserter: no
  */
 ?>
@@ -17,12 +17,12 @@
 		<!-- /wp:paragraph -->
 
 		<!-- wp:paragraph {"fontSize":"small","textColor":"contrast-2"} -->
-		<p class="has-small-font-size has-contrast-2-color has-text-color"><?php echo esc_html_x( 'by', 'Prefix for the post author block: By author name', 'twentytwentyfour' ); ?></p>
+		<p class="has-small-font-size has-contrast-2-color has-text-color"><?php echo esc_html_x( 'by', 'Prefix for the post author block: By author name', 'norrsken' ); ?></p>
 		<!-- /wp:paragraph -->
 
 		<!-- wp:post-author-name {"isLink":true} /-->
 
-		<!-- wp:post-terms {"term":"category","prefix":"<?php echo esc_html_x( 'in ', 'Prefix for the post category block: in category name', 'twentytwentyfour' ); ?>"} /-->
+		<!-- wp:post-terms {"term":"category","prefix":"<?php echo esc_html_x( 'in ', 'Prefix for the post category block: in category name', 'norrsken' ); ?>"} /-->
 
 	</div>
 	<!-- /wp:group -->

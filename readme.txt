@@ -32,6 +32,7 @@ GNU General Public License for more details.
 == Licenses ==
 
 Norrsken is derived from the Twenty Twenty-Four WordPress Theme, (C) 2023 WordPress.org.
+Norrsken is derived from the Hideo WordPress Theme, (C) 2023 Anders Norén.
 
 Norrsken bundles the following third-party resources:
 
@@ -48,6 +49,36 @@ Header avatar
 Author: annezazu
 License: CC0, https://creativecommons.org/public-domain/cc0/
 Source: https://wordpress.org/photos/photo/71164ad9de/
+
+Top left
+Author: annezazu
+License: CC0, https://creativecommons.org/public-domain/cc0/
+Source: https://wordpress.org/photos/photo/326651c41e/
+
+Top middle
+Author: microcanadian
+License: CC0, https://creativecommons.org/public-domain/cc0/
+Source: https://wordpress.org/photos/photo/38562c5beb/
+
+Top right
+Author: annezazu
+License: CC0, https://creativecommons.org/public-domain/cc0/
+Source: https://wordpress.org/photos/photo/929651c727/
+
+Bottom left
+Author: Abhiram RG
+License: CC0, https://creativecommons.org/public-domain/cc0/
+Source: https://wordpress.org/photos/photo/36654365e1/
+
+Bottom middle
+Author: Jos Velasco
+License: CC0, https://creativecommons.org/public-domain/cc0/
+Source: https://wordpress.org/photos/photo/7716528963/
+
+Bottom right
+Author: annezazu
+License: CC0, https://creativecommons.org/public-domain/cc0/
+Source: https://wordpress.org/photos/photo/317651c737/
 
 == Changelog ==
 

@@ -1,5 +1,13 @@
 <?php
 /**
+ * Title: Footer
+ * Slug: norrsken/hidden-footer
+ * Inserter: no
+ */
+?>
+
+<?php
+/**
  * Title: Footer with colophon, 4 columns
  * Slug: twentytwentyfour/footer
  * Categories: footer

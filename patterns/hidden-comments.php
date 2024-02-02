@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Comments
- * Slug: twentytwentyfour/hidden-comments
+ * Slug: norrsken/hidden-comments
  * Inserter: no
  */
 ?>
@@ -9,7 +9,7 @@
 <!-- wp:comments {"className":"wp-block-comments-query-loop"} -->
 <div class="wp-block-comments wp-block-comments-query-loop">
 	<!-- wp:heading -->
-	<h2><?php esc_html_e( 'Comments', 'twentytwentyfour' ); ?></h2>
+	<h2><?php esc_html_e( 'Comments', 'norrsken' ); ?></h2>
 	<!-- /wp:heading -->
 	<!-- wp:comments-title {"level":3} /-->
 	<!-- wp:comment-template -->

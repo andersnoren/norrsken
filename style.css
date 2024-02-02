@@ -6,10 +6,48 @@ Description:
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, blog, portfolio, news
 Author: Anders Norén
 Author URI: https://andersnoren.se
-Theme URI: https://andersnoren.se/teman/hideo-wordpress-theme/
+Theme URI: https://andersnoren.se/teman/norrsken-wordpress-theme/
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 6.4
 Requires PHP: 7.4
 Tested up to: 6.4
 */
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+a {
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.15em;
+}
+
+input, textarea {
+	color: inherit;
+	font: inherit;
+	letter-spacing: inherit;
+}
+
+::placeholder { 
+	color: var( --wp--preset--color--contrast-2 );
+}
+
+/* HELPER CLASSES */
+
+.hide-empty:empty { display: none !important; }
+
+/* BLOCK: QUOTE & PULLQUOTE */
+
+.is-style-has-quotation-mark:before,
+.wp-block-pullquote blockquote:before {
+	content: "“";
+	display: block;
+	font-family: "Open Sauce Two", ui-sans-serif, sans-serif;
+	font-size: clamp( 80px, 3em, 128px );
+	line-height: .8;
+	margin-left: -.05em;
+	margin-bottom: .3em;
+	max-height: .3em;
+}
