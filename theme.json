@@ -752,9 +752,6 @@
 						"right": "0",
 						"top": "var(--wp--preset--spacing--10)"
 					}
-				},
-				"typography": {
-					"fontStyle": "italic"
 				}
 			},
 			"core/search": {

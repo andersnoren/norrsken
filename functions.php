@@ -57,8 +57,7 @@ if ( ! function_exists( 'norrsken_block_styles' ) ) :
 			'core/comments-title',
 			array(
 				'name'         => 'norrsken-title-separator-right',
-				'label'        => __( 'Separator to the right of the title', 'norrsken' ),
-				'inline_style' => "",
+				'label'        => __( 'Separator to the right of the title', 'norrsken' )
 			)
 		);
 
@@ -66,8 +65,7 @@ if ( ! function_exists( 'norrsken_block_styles' ) ) :
 			'core/post-comments-form',
 			array(
 				'name'         => 'norrsken-title-separator-right',
-				'label'        => __( 'Separator to the right of the title', 'norrsken' ),
-				'inline_style' => "",
+				'label'        => __( 'Separator to the right of the title', 'norrsken' )
 			)
 		);
 
@@ -75,8 +73,15 @@ if ( ! function_exists( 'norrsken_block_styles' ) ) :
 			'core/post-navigation-link',
 			array(
 				'name'         => 'norrsken-post-navigation-link',
-				'label'        => __( 'Norrsken', 'norrsken' ),
-				'inline_style' => "",
+				'label'        => __( 'Norrsken', 'norrsken' )
+			)
+		);
+
+		register_block_style(
+			'core/post-terms',
+			array(
+				'name'  => 'norrsken-post-terms',
+				'label' => __( 'Norrsken', 'steve-jang' ),
 			)
 		);
 

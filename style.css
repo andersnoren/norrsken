@@ -118,7 +118,7 @@ select:focus {
 	content: "";
 	display: block;
 	height: 40px;
-	margin: 0 0 var( --wp--preset--spacing--30 ) 0;
+	margin: 0 auto var( --wp--preset--spacing--30 ) auto;
 		-webkit-mask-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='40' height='35' viewBox='0 0 40 35' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M32.0222 0H39.6676L33.0194 17.4448H22.2715L32.0222 0ZM22.2715 35V17.4448H40V35H22.2715ZM9.75069 0H17.3961L10.7479 17.4448H0L9.75069 0ZM0 35V17.4448H17.7285V35H0Z' fill='%23111111'/%3E%3C/svg%3E%0A");
 	mask-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='40' height='35' viewBox='0 0 40 35' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M32.0222 0H39.6676L33.0194 17.4448H22.2715L32.0222 0ZM22.2715 35V17.4448H40V35H22.2715ZM9.75069 0H17.3961L10.7479 17.4448H0L9.75069 0ZM0 35V17.4448H17.7285V35H0Z' fill='%23111111'/%3E%3C/svg%3E%0A");
 		-webkit-mask-position: center;
@@ -127,6 +127,9 @@ select:focus {
 	mask-repeat: no-repeat;
 	width: 40px;
 }
+
+.wp-block-pullquote.has-text-align-left blockquote:before { margin-left: 0; }
+.wp-block-pullquote.has-text-align-right blockquote:before { margin-right: 0; }
 
 .wp-block-pullquote blockquote > p:first-child { margin-top: 0; }
 .wp-block-pullquote blockquote > p:last-of-type { margin-bottom: 0; }
@@ -144,7 +147,7 @@ select:focus {
 }
 
 .wp-block-pullquote.has-background {
-	padding: var( --wp--preset--spacing--30 );
+	padding: var( --wp--preset--spacing--40 );
 }
 
 /* BLOCK: QUOTE */
@@ -171,6 +174,32 @@ select:focus {
 	width: 1px;
 }
 
+
+/* BLOCK: POST TERMS */
+
+.is-style-norrsken-post-terms {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .5em 1em;
+}
+
+.is-style-norrsken-post-terms a {
+	background-color: var( --wp--preset--color--base-2 );
+	border-radius: 999px;
+	color: var( --wp--preset--color--contrast );
+	padding: .25em 1em;
+	text-decoration: none;
+	transition: all .15s linear;
+}
+
+.is-style-norrsken-post-terms a:hover {
+	background-color: var( --wp--preset--color--contrast );
+	color: var( --wp--preset--color--base-2 );
+}
+
+.is-style-norrsken-post-terms .wp-block-post-terms__separator {
+	display: none;
+}
 
 /* BLOCK: SEARCH */
 
