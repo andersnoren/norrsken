@@ -54,6 +54,33 @@ if ( ! function_exists( 'norrsken_block_styles' ) ) :
 		/* REGISTER BLOCK STYLES */
 
 		register_block_style(
+			'core/comments-title',
+			array(
+				'name'         => 'norrsken-title-separator-right',
+				'label'        => __( 'Separator to the right of the title', 'norrsken' ),
+				'inline_style' => "",
+			)
+		);
+
+		register_block_style(
+			'core/post-comments-form',
+			array(
+				'name'         => 'norrsken-title-separator-right',
+				'label'        => __( 'Separator to the right of the title', 'norrsken' ),
+				'inline_style' => "",
+			)
+		);
+
+		register_block_style(
+			'core/post-navigation-link',
+			array(
+				'name'         => 'norrsken-post-navigation-link',
+				'label'        => __( 'Norrsken', 'norrsken' ),
+				'inline_style' => "",
+			)
+		);
+
+		register_block_style(
 			'core/query-pagination',
 			array(
 				'name'         => 'norrsken-pagination',

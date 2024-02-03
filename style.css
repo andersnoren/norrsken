@@ -43,7 +43,7 @@ input, textarea, select {
 	color: inherit;
 	font: inherit;
 	letter-spacing: inherit;
-	padding: .725em 4em .725em 1em;
+	padding: .725em 1em;
 }
 
 ::placeholder { 
@@ -125,8 +125,48 @@ select:focus {
 	height: 1px;
 }
 
+/* BLOCK: POST COMMENTS FORM */
 
-/* BLOCK STYLE: NORRSKEN PAGINATION */
+:root .wp-block-post-comments-form .comment-reply-title {
+	margin: 0 0 var( --wp--preset--spacing--60 ) 0;
+}
+
+.wp-block-post-comments-form:not(.has-text-color) .comment-reply-title {
+	color: var( --wp--preset--color--contrast-2 );
+}
+
+.comment-reply-title small:has(#cancel-comment-reply-link[style*="display:"][style*="none"]) {
+	display: none;
+}
+
+.comment-form p {
+	margin: var( --wp--preset--spacing--40 ) 0;
+}
+
+.comment-notes {
+	display: none;
+}
+
+:root .wp-block-post-comments-form .logged-in-as {
+	margin: calc( -1 * var( --wp--preset--spacing--30 ) ) 0 var( --wp--preset--spacing--60 );
+}
+
+.wp-block-post-comments-form .comment-form-comment label {
+	display: block;
+	margin-bottom: .25em;
+}
+
+.wp-block-post-comments-form input:not([type=submit]), 
+.wp-block-post-comments-form textarea {
+	border-color: var( --wp--preset--color--contrast-4 );
+}
+
+.wp-block-post-comments-form input:not([type=submit]):not([type=checkbox]), 
+.wp-block-post-comments-form textarea {
+	padding: .725em 1em;
+}
+
+/* BLOCK STYLE: NORRSKEN PAGINATION/POST NAVIGATION LINK */
 
 :root .is-style-norrsken-pagination > *,
 .is-style-norrsken-pagination [class*="is-arrow-"]:only-child {
@@ -140,10 +180,14 @@ select:focus {
 	gap: var(--wp--preset--spacing--20);
 }
 
-.is-style-norrsken-pagination:not(:has(.wp-block-query-pagination-previous .is-arrow-arrow )):before,
-.is-style-norrsken-pagination:not(:has(.wp-block-query-pagination-next .is-arrow-arrow )):after {
-	content: "";
-	width: 2.25em;
+.is-style-norrsken-post-navigation-link {
+	align-items: center;
+	display: flex;
+	gap: var( --wp--preset--spacing--40 );
+}
+
+.is-style-norrsken-post-navigation-link * {
+	margin: 0;
 }
 
 .is-style-norrsken-pagination:not([class*="is-content-justification-"]) .wp-block-query-pagination-numbers {
@@ -152,12 +196,14 @@ select:focus {
 }
 
 .is-style-norrsken-pagination > a,
-.is-style-norrsken-pagination .wp-block-query-pagination-numbers > * { 
+.is-style-norrsken-pagination .wp-block-query-pagination-numbers > *,
+.is-style-norrsken-post-navigation-link span[class*="arrow"] { 
 	align-items: center;
 	background-color: var( --wp--preset--color--base );
 	border: 1px solid var( --wp--preset--color--base-2 );
 	border-radius: 50%;
 	display: flex;
+	flex-shrink: 0;
 	height: 2.25em;
 	justify-content: center;
 	margin: 0;
@@ -165,7 +211,8 @@ select:focus {
 }
 
 .is-style-norrsken-pagination > a,
-.is-style-norrsken-pagination .wp-block-query-pagination-numbers > a {
+.is-style-norrsken-pagination .wp-block-query-pagination-numbers > a,
+.is-style-norrsken-post-navigation-link span[class*="arrow"] {
 	background-image: var( --wp--preset--gradient--base-alt-fade-mid-down-right );
 }
 
@@ -175,6 +222,53 @@ select:focus {
 	border-color: transparent;
 	color: var( --wp--preset--color--base );
 }
+
+@media ( min-width: 700px ) {
+	.is-style-norrsken-pagination:not(:has(.wp-block-query-pagination-previous .is-arrow-arrow )):before,
+	.is-style-norrsken-pagination:not(:has(.wp-block-query-pagination-next .is-arrow-arrow )):after {
+		content: "";
+		width: 2.25em;
+	}
+}
+
+@media ( max-width: 700px ) {
+	.is-style-norrsken-pagination > a {
+		display: none;
+	}
+
+	.is-style-norrsken-post-navigation-link {
+		flex-direction: column;
+	}
+
+	.is-style-norrsken-post-navigation-link:not(:only-child) {
+		width: 50%;
+	}
+
+	.is-style-norrsken-post-navigation-link.post-navigation-link-previous { align-items: flex-start; }
+	.is-style-norrsken-post-navigation-link.post-navigation-link-next { align-items: flex-end; }
+
+	.is-style-norrsken-post-navigation-link a {
+		order: 1;
+	}
+}
+
+/* BLOCK STYLE: TITLE WITH SEPARATOR TO THE RIGHT */
+
+.is-style-norrsken-title-separator-right.wp-block-comments-title,
+.wp-block-comments:not(:has(#wp-temp-form-div)) .comment-respond.is-style-norrsken-title-separator-right .comment-reply-title {
+	align-items: center;
+	display: flex;
+	gap: var( --wp--preset--spacing--30 );
+}
+
+.is-style-norrsken-title-separator-right.wp-block-comments-title:after,
+.comment-respond.is-style-norrsken-title-separator-right .comment-reply-title:after {
+	background: var( --wp--preset--color--contrast-4 );
+	content: "";
+	flex: 1;
+	height: 1px;
+}
+
 
 /* TEMPLATE PART: FOOTER */
 
