@@ -1,0 +1,83 @@
+:root .is-style-norrsken-pagination > *,
+.is-style-norrsken-pagination [class*="is-arrow-"]:only-child {
+	margin: 0;
+}
+
+.is-style-norrsken-pagination,
+.is-style-norrsken-pagination .wp-block-query-pagination-numbers {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--wp--preset--spacing--20);
+}
+
+.is-style-norrsken-post-navigation-link {
+	align-items: center;
+	display: flex;
+	gap: var( --wp--preset--spacing--40 );
+}
+
+.is-style-norrsken-post-navigation-link * {
+	margin: 0;
+}
+
+.is-style-norrsken-pagination:not([class*="is-content-justification-"]) .wp-block-query-pagination-numbers {
+	flex: 1;
+	justify-content: center;
+}
+
+.is-style-norrsken-pagination > a,
+.is-style-norrsken-pagination .wp-block-query-pagination-numbers > *,
+.is-style-norrsken-post-navigation-link span[class*="arrow"] { 
+	align-items: center;
+	background-color: var( --wp--preset--color--base );
+	border: 1px solid var( --wp--preset--color--base-2 );
+	border-radius: 50%;
+	display: flex;
+	flex-shrink: 0;
+	height: 2.25em;
+	justify-content: center;
+	margin: 0;
+	width: 2.25em;
+}
+
+.is-style-norrsken-pagination > a,
+.is-style-norrsken-pagination .wp-block-query-pagination-numbers > a,
+.is-style-norrsken-post-navigation-link span[class*="arrow"] {
+	background-image: var( --wp--preset--gradient--base-alt-fade-mid-down-right );
+}
+
+.is-style-norrsken-pagination a:hover,
+.is-style-norrsken-pagination .wp-block-query-pagination-numbers .current {
+	background: var( --wp--preset--color--contrast );
+	border-color: transparent;
+	color: var( --wp--preset--color--base );
+}
+
+@media ( min-width: 700px ) {
+	.is-style-norrsken-pagination:not(:has(.wp-block-query-pagination-previous .is-arrow-arrow )):before,
+	.is-style-norrsken-pagination:not(:has(.wp-block-query-pagination-next .is-arrow-arrow )):after {
+		content: "";
+		width: 2.25em;
+	}
+}
+
+@media ( max-width: 700px ) {
+	.is-style-norrsken-pagination > a {
+		display: none;
+	}
+
+	.is-style-norrsken-post-navigation-link {
+		flex-direction: column;
+	}
+
+	.is-style-norrsken-post-navigation-link:not(:only-child) {
+		width: 50%;
+	}
+
+	.is-style-norrsken-post-navigation-link.post-navigation-link-previous { align-items: flex-start; }
+	.is-style-norrsken-post-navigation-link.post-navigation-link-next { align-items: flex-end; }
+
+	.is-style-norrsken-post-navigation-link a {
+		order: 1;
+	}
+}

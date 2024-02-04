@@ -1,0 +1,9 @@
+.wp-block-separator:not(.is-style-wide):not(.is-style-dots):not(.alignwide):not(.alignfull) { 
+	width: 128px;
+}
+
+.wp-block-separator:not(.is-style-dots):not(.has-background) {
+	background-image: var( --wp--preset--gradient--aurora-horizontal-fade );
+	border: none;
+	height: 1px;
+}

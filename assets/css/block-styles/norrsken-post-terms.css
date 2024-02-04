@@ -1,0 +1,23 @@
+.is-style-norrsken-post-terms {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .5em 1em;
+}
+
+.is-style-norrsken-post-terms a {
+	background-color: var( --wp--preset--color--base-2 );
+	border-radius: 999px;
+	color: var( --wp--preset--color--contrast );
+	padding: .25em 1em;
+	text-decoration: none;
+	transition: all .15s linear;
+}
+
+.is-style-norrsken-post-terms a:hover {
+	background-color: var( --wp--preset--color--contrast );
+	color: var( --wp--preset--color--base-2 );
+}
+
+.is-style-norrsken-post-terms .wp-block-post-terms__separator {
+	display: none;
+}

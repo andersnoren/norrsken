@@ -1,0 +1,14 @@
+.is-style-norrsken-title-separator-right.wp-block-comments-title,
+.wp-block-comments:not(:has(#wp-temp-form-div)) .comment-respond.is-style-norrsken-title-separator-right .comment-reply-title {
+	align-items: center;
+	display: flex;
+	gap: var( --wp--preset--spacing--30 );
+}
+
+.is-style-norrsken-title-separator-right.wp-block-comments-title:after,
+.comment-respond.is-style-norrsken-title-separator-right .comment-reply-title:after {
+	background: var( --wp--preset--color--contrast-4 );
+	content: "";
+	flex: 1;
+	height: 1px;
+}
