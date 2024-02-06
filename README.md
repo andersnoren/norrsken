@@ -1,6 +1,6 @@
 # Norrsken
 
-Norrsken is a simple block theme for blogs, designed to be an archive for all your digital things.
+Norrsken is a simple block theme for blogs, with a stylish design inspired by the Aurora Borealis.
 
 ![Norrsken](https://github.com/andersnoren/norrsken/blob/main/screenshot.jpg)
 
