@@ -1,0 +1,9 @@
+.wp-block-calendar table:where(:not(.has-text-color)) th {
+	background-color: var(--wp--preset--color--contrast-2);
+	border-color: var(--wp--preset--color--contrast-2);
+	color: var(--wp--preset--color--base);
+}
+
+.wp-block-calendar table:where(:not(.has-text-color)) td {
+	border-color: var(--wp--preset--color--contrast-2);
+}

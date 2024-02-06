@@ -100,52 +100,52 @@
 			},
 			"spacingSizes": [
 				{
-					"name": "1 [8px]",
+					"name": "1",
 					"size": "8px",
 					"slug": "10"
 				},
 				{
-					"name": "2 [12px]",
+					"name": "2",
 					"size": "12px",
 					"slug": "20"
 				},
 				{
-					"name": "3 [16px]",
+					"name": "3",
 					"size": "16px",
 					"slug": "30"
 				},
 				{
-					"name": "4 [24px - 21px]",
+					"name": "4",
 					"size": "clamp(21px, 2.4vw, 24px)",
 					"slug": "40"
 				},
 				{
-					"name": "5 [32px - 24px]",
+					"name": "5",
 					"size": "clamp(24px, 3.2vw, 32px)",
 					"slug": "50"
 				},
 				{
-					"name": "6 [48px - 32px]",
+					"name": "6",
 					"size": "clamp(32px, 4.8vw, 48px)",
 					"slug": "60"
 				},
 				{
-					"name": "7 [64px - 48px]",
+					"name": "7",
 					"size": "clamp(48px, 6.4vw, 64px)",
 					"slug": "70"
 				},
 				{
-					"name": "8 [96px - 64px]",
+					"name": "8",
 					"size": "clamp(64px, 9.6vw, 96px)",
 					"slug": "80"
 				},
 				{
-					"name": "9 [128px - 96px]",
+					"name": "9",
 					"size": "clamp(96px, 12.8vw, 128px)",
 					"slug": "90"
 				},
 				{
-					"name": "Body Margin [24px - 48px]",
+					"name": "Body Margin",
 					"size": "clamp(24px, 4.8vw, 48px)",
 					"slug": "body-margin"
 				}
@@ -345,11 +345,9 @@
 			"core/calendar": {
 				"color": {
 					"text": "var(--wp--preset--color--contrast)"
-				},
-				"css": ".wp-block-calendar table:where(:not(.has-text-color)) th{background-color:var(--wp--preset--color--contrast-2);color:var(--wp--preset--color--base);border-color:var(--wp--preset--color--contrast-2)} & table:where(:not(.has-text-color)) td{border-color:var(--wp--preset--color--contrast-2)}"
+				}
 			},
 			"core/categories": {
-				"css": "& {list-style-type:none;} & li{margin-bottom: 0.5rem;}",
 				"spacing": {
 					"padding": {
 						"left": "0px",
@@ -831,6 +829,14 @@
 					"fontSize": "inherit",
 					"fontStyle": "normal",
 					"fontWeight": "inherit"
+				}
+			},
+			"core/table": {
+				"spacing": {
+					"margin": {
+						"bottom": "var(--wp--preset--spacing--50)",
+						"top": "var(--wp--preset--spacing--50)"
+					}
 				}
 			}
 		},

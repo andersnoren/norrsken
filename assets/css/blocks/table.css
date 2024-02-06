@@ -1,0 +1,23 @@
+figure.wp-block-table {
+	margin: 0;
+}
+
+.wp-block-table,
+.wp-block-table thead,
+.wp-block-table tfoot,
+.wp-block-table td, .wp-block-table th {
+	border-color: var(--wp--preset--color--contrast-4);
+}
+
+.wp-block-table figcaption {
+	display: block;
+	margin-top: calc( -1 * var(--wp--preset--spacing--40) );
+}
+
+.wp-block-table.is-style-stripes {
+	border: none;
+}
+
+.wp-block-table.is-style-stripes tbody tr:nth-child(odd) { 
+	background-color: var(--wp--preset--color--base-2);
+}

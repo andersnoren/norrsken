@@ -29,13 +29,16 @@ if ( ! function_exists( 'norrsken_block_styles' ) ) :
 		/* REGISTER STYLES FOR BLOCKS */
 
 		$core_block_styles = apply_filters( 'norrsken_wp_enqueue_block_style_blocks', array( 
+			'calendar', 
+			'categories', 
 			'paragraph', 
 			'post-comments-form',
 			'post-terms', 
 			'pullquote', 
 			'quote',
 			'search',
-			'separator'
+			'separator',
+			'table'
 		) );
 
 		foreach( $core_block_styles as $block_name ) {
