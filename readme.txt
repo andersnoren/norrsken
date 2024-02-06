@@ -10,13 +10,13 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Installation ==
 
-1. Make sure you're running WordPress 6.3 or later.
+1. Make sure you're running WordPress 6.4 or later.
 2. Upload the theme.
 3. Activate the theme.
 
 == Copyright ==
 
-Norrsken WordPress Theme, (C) 2023 Anders Norén.
+Norrsken WordPress Theme, (C) 2024 Anders Norén.
 Norrsken is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify

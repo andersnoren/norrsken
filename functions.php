@@ -31,6 +31,7 @@ if ( ! function_exists( 'norrsken_block_styles' ) ) :
 		$core_block_styles = apply_filters( 'norrsken_wp_enqueue_block_style_blocks', array( 
 			'calendar', 
 			'categories', 
+			'navigation',
 			'paragraph', 
 			'post-comments-form',
 			'post-terms', 
@@ -136,7 +137,7 @@ if ( ! function_exists( 'norrsken_block_styles' ) ) :
 			array(
 				'is_default'	=> true,
 				'name'			=> 'norrsken-post-terms',
-				'label'			=> __( 'Norrsken', 'steve-jang' ),
+				'label'			=> __( 'Norrsken', 'norrsken' ),
 				'style_handle'	=> 'norrsken-post-terms'
 			)
 		);

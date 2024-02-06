@@ -1,0 +1,73 @@
+{
+    "title": "Inverted",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"gradients": [
+				{
+					"gradient": "linear-gradient(90deg, #6CE54B 10.61%, #6BE795 30.26%, #367CCF 50.61%, #A746F6 69.74%, #8117BD 90.78%)",
+					"name": "Aurora Horizontal",
+					"slug": "aurora-horizontal"
+				},
+				{
+					"gradient": "linear-gradient(90deg, rgba(108, 229, 75, 0) 10.61%, #6BE795 30.26%, #367CCF 50.61%, #A746F6 69.74%, rgba(129, 23, 189, 0) 90.78%)",
+					"name": "Aurora Horizontal Fade",
+					"slug": "aurora-horizontal-fade"
+				},
+				{
+					"gradient": "linear-gradient(180deg, #6CE54B 10.61%, #6BE795 30.26%, #367CCF 50.61%, #A746F6 69.74%, #8117BD 90.78%)",
+					"name": "Aurora: Vertical",
+					"slug": "aurora-vertical"
+				},
+				{
+					"gradient": "linear-gradient(180deg, rgba(108, 229, 75, 0) 10.61%, #6BE795 30.26%, #367CCF 50.61%, #A746F6 69.74%, rgba(129, 23, 189, 0) 90.78%)",
+					"name": "Aurora Vertical Fade",
+					"slug": "aurora-vertical-fade"
+				},
+				{
+					"gradient": "linear-gradient(135deg, #6CE54B 10.61%, #6BE795 30.26%, #367CCF 50.61%, #A746F6 69.74%, #8117BD 90.78%)",
+					"name": "Aurora ↘",
+					"slug": "aurora-down-right"
+				},
+				{
+					"gradient": "linear-gradient(135deg, var(--wp--preset--color--base) 0%, rgba(241, 241, 241, 0.994) 5.89%, rgba(241, 241, 241, 0.976) 10.69%, rgba(241, 241, 241, 0.947) 14.56%, rgba(241, 241, 241, 0.91) 17.67%, rgba(241, 241, 241, 0.864) 20.19%, rgba(241, 241, 241, 0.812) 22.28%, rgba(241, 241, 241, 0.754) 24.12%, rgba(241, 241, 241, 0.692) 25.88%, rgba(241, 241, 241, 0.627) 27.72%, rgba(241, 241, 241, 0.561) 29.81%, rgba(241, 241, 241, 0.494) 32.33%, rgba(241, 241, 241, 0.429) 35.44%, rgba(241, 241, 241, 0.365) 39.31%, rgba(241, 241, 241, 0.305) 44.11%, rgba(241, 241, 241, 0.25) 50%, rgba(241, 241, 241, 0.305) 55.89%, rgba(241, 241, 241, 0.365) 60.69%, rgba(241, 241, 241, 0.429) 64.56%, rgba(241, 241, 241, 0.494) 67.67%, rgba(241, 241, 241, 0.561) 70.19%, rgba(241, 241, 241, 0.627) 72.28%, rgba(241, 241, 241, 0.692) 74.12%, rgba(241, 241, 241, 0.754) 75.88%, rgba(241, 241, 241, 0.812) 77.72%, rgba(241, 241, 241, 0.864) 79.81%, rgba(241, 241, 241, 0.91) 82.33%, rgba(241, 241, 241, 0.947) 85.44%, rgba(241, 241, 241, 0.976) 89.31%, rgba(241, 241, 241, 0.994) 94.11%, var(--wp--preset--color--base) 100%)",
+					"name": "Base / Two Fade Mid ↘",
+					"slug": "base-alt-fade-mid-down-right"
+				}
+			],
+			"palette": [
+				{
+					"color": "#FFFFFF",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#F1F1F1",
+					"name": "Base / Two",
+					"slug": "base-2"
+				},
+				{
+					"color": "#111111",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#666666",
+					"name": "Contrast / Two",
+					"slug": "contrast-2"
+				},
+				{
+					"color": "#767676",
+					"name": "Contrast / Three",
+					"slug": "contrast-3"
+				},
+				{
+					"color": "#DDDDDD",
+					"name": "Contrast / Four",
+					"slug": "contrast-4"
+				}
+			]
+		}
+    }
+}
