@@ -25,4 +25,3 @@ Do you want to support the continued development of Norrsken? You can send me a 
 
 ## Resources
 - [About Norrsken](https://andersnoren.se/teman/norrsken-wordpress-theme/)
-- [Norrsken demo site](https://andersnoren.se/themes/norrsken/)
