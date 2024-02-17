@@ -174,22 +174,6 @@
 					"slug": "geist-mono"
 				},
 				{
-					"fontFace": [
-						{
-							"fontFamily": "Geist Sans",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "100 900",
-							"src": [
-								"file:./assets/fonts/geist-sans/Geist-Variable.woff2"
-							]
-						}
-					],
-					"fontFamily": "\"Geist Sans\", monospace",
-					"name": "Geist Sans",
-					"slug": "geist-sans"
-				},
-				{
 					"fontFamily": "ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
 					"name": "System Sans Serif",
 					"slug": "system-sans-serif"

@@ -34,7 +34,6 @@ if ( ! function_exists( 'norrsken_block_styles' ) ) :
 			'navigation',
 			'paragraph', 
 			'post-comments-form',
-			'post-terms', 
 			'pullquote', 
 			'quote',
 			'search',

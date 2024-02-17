@@ -40,9 +40,6 @@ Geist Mono font
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://github.com/vercel/geist-font
 
-Images in /assets/images/ by Anders Norén 
-License: Public Domain
-
 === Images in screenshot.jpg ===
 
 Header avatar
@@ -82,5 +79,11 @@ Source: https://wordpress.org/photos/photo/317651c737/
 
 == Changelog ==
 
-Version 1.0.0 (2024-XX-XX)
+Version 1.0.1 (2024-02-17)
+-------------------------
+- Removed Geist Sans from theme.json, since it isn't included in the theme.
+- Removed the empty /assets/images/ folder, and the mention of it in readme.txt.
+- Removed the enqueue of the `post-terms` CSS file, since said CSS file isn't included.
+
+Version 1.0.0 (2024-02-06)
 -------------------------
