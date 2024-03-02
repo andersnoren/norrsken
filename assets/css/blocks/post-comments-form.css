@@ -37,7 +37,7 @@
 	padding: .725em 1em;
 }
 
-.wp-block-post-comments-form .comment-form-cookies-consent {
+:root .wp-block-post-comments-form .comment-form-cookies-consent {
 	align-items: center;
 	gap: var( --wp--preset--spacing--30 );
 }
