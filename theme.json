@@ -468,6 +468,14 @@
 					}
 				}
 			},
+			"core/embed": {
+				"spacing": {
+					"margin": {
+						"bottom": "var(--wp--preset--spacing--70)",
+						"top": "var(--wp--preset--spacing--70)"
+					}
+				}
+			},
 			"core/footnotes": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--small)"
@@ -476,7 +484,8 @@
 			"core/gallery": {
 				"spacing": {
 					"margin": {
-						"bottom": "var(--wp--preset--spacing--50)"
+						"bottom": "var(--wp--preset--spacing--70)",
+						"top": "var(--wp--preset--spacing--70)"
 					}
 				}
 			},
@@ -673,7 +682,7 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x-large)",
+					"fontSize": "calc( 22px )",
 					"fontStyle": "normal",
 					"lineHeight": "1.5"
 				}

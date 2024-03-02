@@ -79,6 +79,13 @@ Source: https://wordpress.org/photos/photo/317651c737/
 
 == Changelog ==
 
+Version 1.0.3 (2024-03-02)
+-------------------------
+- Gallery block: Updated margins.
+- Embed block: Updated margins.
+- Pullquote block: Fixed the borders not aligning correctly in Safari on iOS.
+- Added a demo link to the theme description.
+
 Version 1.0.2 (2024-03-02)
 -------------------------
 - Button block: Improved hover and focus styles.
