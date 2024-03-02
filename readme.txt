@@ -79,6 +79,11 @@ Source: https://wordpress.org/photos/photo/317651c737/
 
 == Changelog ==
 
+Version 1.0.2 (2024-03-02)
+-------------------------
+- Button block: Improved hover and focus styles.
+- Adjusted the theme description.
+
 Version 1.0.1 (2024-02-17)
 -------------------------
 - Removed Geist Sans from theme.json, since it isn't included in the theme.
