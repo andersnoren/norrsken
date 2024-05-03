@@ -14,7 +14,7 @@ add_action( 'after_setup_theme', 'norrsken_setup' );
 --------------------------------------------------------------------------------------------------- */
 
 function norrsken_styles() {
-	wp_enqueue_style( 'norrsken-styles', get_theme_file_uri( '/style.css' ), array(), wp_get_theme( 'norrsken' )->get( 'Version' ) );
+	wp_enqueue_style( 'norrsken-styles', get_template_directory_uri() . '/style.css', array(), wp_get_theme( 'norrsken' )->get( 'Version' ) );
 }
 add_action( 'wp_enqueue_scripts', 'norrsken_styles' );
 
@@ -46,9 +46,9 @@ if ( ! function_exists( 'norrsken_block_styles' ) ) :
 				'core/' . $block_name,
 				array(
 					'handle' => 'norrsken-' . $block_name . '-style',
-					'src'    => get_theme_file_uri( 'assets/css/blocks/' . $block_name . '.css' ),
+					'src'    => get_template_directory_uri() . '/assets/css/blocks/' . $block_name . '.css',
 					'ver'    => wp_get_theme( 'norrsken' )->get( 'Version' ),
-					'path'   => get_theme_file_path( 'assets/css/' . $block_name . '.css' ),
+					'path'   => get_template_directory() . '/assets/css/' . $block_name . '.css',
 				)
 			);
 		}
@@ -60,9 +60,9 @@ if ( ! function_exists( 'norrsken_block_styles' ) ) :
 				'core/' . $handle,
 				array(
 					'handle'	=> 'norrsken-title-separator-right',
-					'src'		=> get_theme_file_uri( 'assets/css/block-styles/norrsken-title-separator-right.css' ),
+					'src'		=> get_template_directory_uri() . '/assets/css/block-styles/norrsken-title-separator-right.css',
 					'ver'		=> wp_get_theme( 'norrsken' )->get( 'Version' ),
-					'path'		=> get_theme_file_path( 'assets/css/block-styles/norrsken-title-separator-right.css' ),
+					'path'		=> get_template_directory() . '/assets/css/block-styles/norrsken-title-separator-right.css',
 				)
 			);
 		}
@@ -72,9 +72,9 @@ if ( ! function_exists( 'norrsken_block_styles' ) ) :
 				'core/' . $handle,
 				array(
 					'handle'	=> 'norrsken-pagination-post-navigation-link',
-					'src'		=> get_theme_file_uri( 'assets/css/block-styles/norrsken-pagination-post-navigation-link.css' ),
+					'src'		=> get_template_directory_uri() . '/assets/css/block-styles/norrsken-pagination-post-navigation-link.css',
 					'ver'		=> wp_get_theme( 'norrsken' )->get( 'Version' ),
-					'path'		=> get_theme_file_path( 'assets/css/block-styles/norrsken-pagination-post-navigation-link.css' ),
+					'path'		=> get_template_directory() . '/assets/css/block-styles/norrsken-pagination-post-navigation-link.css',
 				)
 			);
 		}
@@ -83,9 +83,9 @@ if ( ! function_exists( 'norrsken_block_styles' ) ) :
 			'core/site-title',
 			array(
 				'handle'	=> 'norrsken-hide-on-home',
-				'src'		=> get_theme_file_uri( 'assets/css/block-styles/norrsken-hide-on-home.css' ),
+				'src'		=> get_template_directory_uri() . '/assets/css/block-styles/norrsken-hide-on-home.css',
 				'ver'		=> wp_get_theme( 'norrsken' )->get( 'Version' ),
-				'path'		=> get_theme_file_path( 'assets/css/block-styles/norrsken-hide-on-home.css' ),
+				'path'		=> get_template_directory() . '/assets/css/block-styles/norrsken-hide-on-home.css',
 			)
 		);
 
@@ -93,9 +93,9 @@ if ( ! function_exists( 'norrsken_block_styles' ) ) :
 			'core/post-terms',
 			array(
 				'handle'	=> 'norrsken-post-terms',
-				'src'		=> get_theme_file_uri( 'assets/css/block-styles/norrsken-post-terms.css' ),
+				'src'		=> get_template_directory_uri() . '/assets/css/block-styles/norrsken-post-terms.css',
 				'ver'		=> wp_get_theme( 'norrsken' )->get( 'Version' ),
-				'path'		=> get_theme_file_path( 'assets/css/block-styles/norrsken-post-terms.css' ),
+				'path'		=> get_template_directory() . '/assets/css/block-styles/norrsken-post-terms.css',
 			)
 		);
 

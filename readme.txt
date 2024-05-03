@@ -79,6 +79,10 @@ Source: https://wordpress.org/photos/photo/317651c737/
 
 == Changelog ==
 
+Version 1.0.6 (2024-05-03)
+-------------------------
+- Updated stylesheet enqueue to make sure the parent theme stylesheet is loaded even when a child theme is active.
+
 Version 1.0.5 (2024-04-01)
 -------------------------
 - Comment form: Fixed border colors being overwritten by Core styles.

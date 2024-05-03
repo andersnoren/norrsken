@@ -1,7 +1,7 @@
 /*
 Theme Name: Norrsken
 Text Domain: norrsken
-Version: 1.0.5
+Version: 1.0.6
 Description: Norrsken is a simple block theme for blogs, with a stylish design inspired by the aurora borealis. Demo: https://norrsken.andersnoren.se
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, blog, portfolio, news
 Author: Anders Norén
@@ -11,7 +11,7 @@ License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 6.4
 Requires PHP: 7.4
-Tested up to: 6.4
+Tested up to: 6.5
 */
 
 body {
