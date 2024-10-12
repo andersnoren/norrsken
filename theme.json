@@ -687,13 +687,6 @@
 					"lineHeight": "1.5"
 				}
 			},
-			"core/query-no-results": {
-				"spacing": {
-					"padding": {
-						"top": "var(--wp--preset--spacing--30)"
-					}
-				}
-			},
 			"core/query-pagination": {
 				"elements": {
 					"link": {
