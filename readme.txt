@@ -79,6 +79,10 @@ Source: https://wordpress.org/photos/photo/317651c737/
 
 == Changelog ==
 
+Version 1.0.8 (2024-10-21)
+-------------------------
+- Increased the default width of the category select element, improving readability in other locales.
+
 Version 1.0.7 (2024-10-12)
 -------------------------
 - Fixed the footer theme credit link pointing to WordPress.org.
