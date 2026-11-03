@@ -20,7 +20,7 @@ Do you want to support the continued development of Norrsken? You can send me a 
 
 ## Requirements
 - WordPress 6.4+
-- PHP 7.0+
+- PHP 7.4+
 - License: [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html) or later
 
 ## Resources

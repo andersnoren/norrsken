@@ -2,11 +2,19 @@
 Contributors: Anlino
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=anders%40andersnoren%2ese&lc=US&item_name=Free%20WordPress%20Themes%20from%20Anders%20Noren&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 Requires at least: 6.4
-Requires PHP: 7.0
-Tested up to: 6.6
+Requires PHP: 7.4
+Tested up to: 7.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+A simple block theme for blogs, with a stylish design inspired by the aurora borealis.
+
+
+== Description ==
+
+Norrsken is a simple block theme for blogs, with a stylish design inspired by the aurora borealis. Demo: https://norrsken.andersnoren.se
+
 
 == Installation ==
 
@@ -14,9 +22,19 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 2. Upload the theme.
 3. Activate the theme.
 
+
+== Frequently Asked Questions ==
+
+= Where can I get support? =
+Post your question in the Norrsken support forum on WordPress.org: https://wordpress.org/support/theme/norrsken/
+
+= Where can I request a feature or report a bug? =
+Open an issue in the Norrsken GitHub repository: https://github.com/andersnoren/norrsken
+
+
 == Copyright ==
 
-Norrsken WordPress Theme, (C) 2024 Anders Norén.
+Norrsken WordPress Theme, (C) 2024-2026 Anders Norén.
 Norrsken is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
@@ -40,7 +58,7 @@ Geist Mono font
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://github.com/vercel/geist-font
 
-=== Images in screenshot.jpg ===
+Images in screenshot.jpg:
 
 Header avatar
 Author: annezazu
@@ -78,6 +96,13 @@ License: CC0, https://creativecommons.org/public-domain/cc0/
 Source: https://wordpress.org/photos/photo/317651c737/
 
 == Changelog ==
+
+Version 1.0.9 (2026-11-03)
+-------------------------
+- Tested with WordPress 7.1.
+- Hid the visible label of the category dropdown on the blog page. It's still available to screen readers.
+- Updated Requires PHP in readme.txt to 7.4, to match style.css.
+- Added Description, FAQ and Upgrade Notice sections to the readme.
 
 Version 1.0.8 (2024-10-21)
 -------------------------
@@ -121,3 +146,9 @@ Version 1.0.1 (2024-02-17)
 
 Version 1.0.0 (2024-02-06)
 -------------------------
+
+
+== Upgrade Notice ==
+
+= 1.0.9 =
+Tested with WordPress 7.1.
